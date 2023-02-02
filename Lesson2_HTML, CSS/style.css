@@ -1,0 +1,45 @@
+html{
+    background-image:url("https://d1lss44hh2trtw.cloudfront.net/assets/article/2022/11/30/sanctum-gameplay-cinematic1_feature.jpg") ;
+}
+h1{
+    font-family: 'Teddy Bear', sans-serif;
+    color:rgb(128, 0, 128);
+}
+h2{
+    color:rgb(128, 0, 128);
+}
+p{
+    color:rgb(243, 158, 243);
+}
+h3{
+    color:rgb(218, 165, 32);
+}
+h4{
+    color:rgb(218, 165, 32);
+}
+a:link {
+    color:rgb(128, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color:rgb(121, 92, 92) ;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .biggest{
+    font-size: 18px;
+  }
+  li{
+    color:aliceblue;
+  }
+  @font-face {
+	font-family: 'Teddy Bear';
+	src: url('/fonts/teddy_bear.eot'); /* IE 9 Compatibility Mode */
+	src: url('/fonts/teddy_bear.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('/fonts/teddy_bear.woff2') format('woff2'), /* Super Modern Browsers */
+		url('/fonts/teddy_bear.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('/fonts/teddy_bear.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('/fonts/teddy_bear.svg#teddy_bear') format('svg'); /* Chrome < 4, Legacy iOS */
+}
